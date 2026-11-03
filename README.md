@@ -8,7 +8,7 @@
 easily adds standard observability to any Dart or Flutter application's `print`, `stdout` and `stderr`.  This package depends on 
 [dartastic_opentelemetry_api](https://pub.dev/packages/dartastic_opentelemetry_api).
 
-This package supports Android, iOS, Linux, macOS, Web and Windows. On the web it captures `print`; `stdout` and `stderr` are captured on dart:io platforms.
+This package supports Android, iOS, Linux, macOS, Web and Windows. On the web it captures `print`; `stdout` and `stderr` are captured on dart:io platforms. It is WASM-ready.
 
 This package can be used with any OTel backend because it's compliant with the OpenTelemetry Specification.
 
